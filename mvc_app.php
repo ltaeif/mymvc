@@ -33,6 +33,8 @@ if (!defined('_GaiaEXEC')) die('No direct access allowed.');
 
         <link rel="shortcut icon" href="favicon.ico">
         <title>DanteEHR :: (Electronic Health Records)</title>
+        <!-- Bootstrap core CSS -->
+        <link href="ressources/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet">
 
         <link rel="stylesheet" type="text/css" href="resources/bootstrap/css/dashboard.css">
         <link rel="stylesheet" type="text/css" href="resources/bootstrap/css/style_newui.css">

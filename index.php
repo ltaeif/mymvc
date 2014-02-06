@@ -78,7 +78,7 @@ if($mobile->isMobile() || $mDebug){
 		} else {
 			$_SESSION['user']['auth'] = false;
             $_SESSION['install'] = false;
-			include_once('_login.php');
+			include_once('mvc_login.php');
 		}
 	}
 }

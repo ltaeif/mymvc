@@ -18,5 +18,8 @@ if (!defined('_GaiaEXEC'))
 		<script type="text/javascript" src="lib/<?php echo $_SESSION['dir']['touch']; ?>/sencha-touch-debug.js"></script>
 		<script type="text/javascript" src="login/login_mobile.js"></script>
 	</head>
-	<body></body>
+	<body>
+
+
+	</body>
 </html>

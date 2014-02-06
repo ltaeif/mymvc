@@ -7,7 +7,7 @@
  * Revision: N/A
  */
 if(!defined('_GaiaEXEC')) die('No direct access allowed.');
-$lang = (isset($_SESSION['site']['localization']) ? $_SESSION['site']['localization'] : 'en_US');
+$lang = (isset($_SESSION['site']['localization']) ? $_SESSION['site']['localization'] : 'fr_All');
 $site = (isset($_SESSION['site']['dir']) ? $_SESSION['site']['dir'] : false);
 ?>
 <html>
@@ -18,6 +18,7 @@ $site = (isset($_SESSION['site']['dir']) ? $_SESSION['site']['dir'] : false);
     <link rel="stylesheet" type="text/css" href="resources/css/ext-all-gray.css">
     <link rel="stylesheet" type="text/css" href="resources/css/style_newui.css">
     <link rel="stylesheet" type="text/css" href="resources/css/custom_app.css">
+
 
     <link rel="shortcut icon" href="favicon.ico">
     <script src="JSrouter.php"></script>

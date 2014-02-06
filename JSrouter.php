@@ -46,6 +46,7 @@ if(!isset($_SESSION['site']['error']) && (isset($_SESSION['user']) && $_SESSION[
 	$user = new User();
 	$userData = $user->getCurrentUserBasicData();
 	Globals::setGlobals();
+
 	/*
 	 * Pass all the PHP to JavaScript
 	 */
