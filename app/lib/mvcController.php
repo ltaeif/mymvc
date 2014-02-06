@@ -1,5 +1,5 @@
-<?php 
-date_default_timezone_set('Europe/Madrid');
+<?php
+
 
 abstract class initMVC {
 	

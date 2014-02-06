@@ -1,10 +1,13 @@
-﻿<?php 
+﻿<?php
 
-abstract class Config {
+
+class Config {
+
 	public static $param= array(
 				//'sitename'=>'e-omed/simpleform'
-				'sitename'=>'eomed/simpleform'
-				,'mvc'=>array(
+				'sitename'=>'app'
+
+                ,'mvc'=>array(
 						  'modules' =>"modules"
 						 ,'view' =>"view" 
 						 ,'controller' =>"controller" 
@@ -13,9 +16,10 @@ abstract class Config {
 						 ,'defaultview' =>"index" 
 						 ,'defaultcontroller' =>"index" 
 						 ,'defaultmodule' =>"index" 
-						
+
 						 ,'layout' =>"layout" 
-						 ,'ajaxlayout' =>"ajaxlayout" 
+						 ,'ajaxlayout' =>"ajaxlayout"
+                         ,'theme' => ''
 						 ,'timezone' =>"ajaxlayout" 
 						 
 						

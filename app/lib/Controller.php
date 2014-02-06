@@ -28,6 +28,8 @@ abstract class Controller{
 		//$this->modulename=$this->modulepath.$modulename.'/';
 		
 		$this->view= Config::$param['mvc']['modules'].'/'.$modulename.'/'.'view/'.$viewname.'.phtml' ;
+
+
 		$this->layout = Config::$param['mvc']['modules'].'/'.$modulename.'/layout/'.Config::$param['mvc']['ajaxlayout'].".phtml";
 		
 		include_once $this->layout;
