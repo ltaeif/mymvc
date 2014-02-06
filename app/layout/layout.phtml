@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+  <?php 
+ // error_reporting(E_ERROR | E_WARNING | E_PARSE | E_NOTICE);
+ // ini_set('display_errors',0);
+  ?>
+    <meta name="generator" content="UVT">
+    <meta name="dcterms.created" content="">
+    <meta name="description" content="">
+    <meta name="keywords" content="">
+	<meta charset="UTF-8">
+    <title></title>
+  
+    <!--[if IE]>
+    <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+	<link rel="stylesheet" type="text/css" href="resources/css/bootstrap.min.css"/>
+	<link rel="stylesheet" type="text/css" href="resources/validator/css/validationEngine.jquery.css"/>
+	<link rel="stylesheet" type="text/css" href="resources/jqueryui/css/ui-lightness/jquery-ui-1.8.21.custom.css"/>
+	<link rel="stylesheet" type="text/css" href="resources/css/style.css"/>
+	
+	<script type="text/javascript" src="resources/jqueryui/js/jquery-1.8.3.min.js"></script>
+ 	<script type="text/javascript" src="resources/js/bootstrap.js"></script>
+    <script type="text/javascript" src="resources/validator/languages/jquery.validationEngine-fr.js"></script>
+ 	<script type="text/javascript" src="resources/validator/jquery.validationEngine.js"></script>
+ 
+	<link rel="stylesheet" type="text/css" href="resources/quickselect/chosen.min.css" />
+    <script type='text/javascript' src='resources/quickselect/chosen.jquery.js'></script>
+    <script type='text/javascript' src='resources/quickselect/jquery.quickselect.js'></script>
+   
+   <noscript>
+			
+			<div id="no-javascript">
+			Your browser's JavaScript must be enabled to use this Interface		
+			<script>window.location.href = "/index.php?controller=participant&view=signin";
+			</script>
+
+			</div>
+			</noscript>
+   
+  	
+  </head>
+  
+  <body>
+	<div class="navbar">
+		<div class="navbar-inner" ><div align="center">
+		
+		</div>
+		
+		</div>
+	</div>
+		
+	 <div id="content"> 
+	 
+	 	 <?php include $this->view ?>
+		 
+		 	<div>
+	
+	</div>
+	 </div>
+  	
+
+  </body>
+</html>
